@@ -3,7 +3,7 @@ html, body {
   height: 100%;
 }
 
-p {
+.quote {
   font-size: 24px;
 }
 
@@ -16,8 +16,13 @@ h1 {
   font-family: 'Quantico', sans-serif;
 }
 
+.container {
+	width: 100%;
+	margin-top: 30px; 
+}
+
 .d-flex {
-  margin-top: 20%;
+  margin-top: 40px;
 }
 
 .navbar {
