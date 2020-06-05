@@ -60,6 +60,7 @@ img {
   position: absolute;
   bottom: 11px;
   left: 40px;
+  font-size: 1.5vw;
   width: 50%;
   background: #4aaaa5;
   color: white;
