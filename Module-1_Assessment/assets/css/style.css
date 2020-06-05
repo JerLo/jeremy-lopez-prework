@@ -56,6 +56,15 @@ img {
   border: 2px solid #dddddd;
 }
 
+.img-txt {
+  position: absolute;
+  bottom: 11px;
+  left: 40px;
+  width: 30%;
+  background: #4aaaa5;
+  color: white;
+}
+
 #input-msg {
   height: 150px;;
 }
