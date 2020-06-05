@@ -1,6 +1,6 @@
 html,
 body {
-  height: 80%;
+  height: 100%;
   font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
   font-size: 24px;
   color: #777777;
@@ -8,7 +8,9 @@ body {
 
 h1 {
   font-family: 'Georgia', Times, Times New Roman, serif;
+  font-size: 36px;
   color: #4aaaa5;
+  overflow: auto;
 }
 
 img {
@@ -18,7 +20,8 @@ img {
 }
 
 .navbar.navbar-light.bg-light {
-  border-bottom: 2px solid #cccccc
+  background: #ffffff !important;
+  border-bottom: 2px solid #cccccc;
 }
 
 .navbar-text {
@@ -40,20 +43,29 @@ img {
   padding-top: 20px;
 }
 
-.about-section {
+.back-section {
   background-image: url(../images/background.jpg);
   border: solid white;
 }
 
 .jumbotron {
   margin-top: 50px;
-  margin-right: 100px;
-  margin-left: 200px;
-  background: #ffffff;
+  margin-right: 150px;
+  margin-left: 150px;
+  background: #ffffff !important;
   border: 2px solid #dddddd;
+}
+
+#input-msg {
+  height: 150px;;
+}
+
+#submit-btn {
+  background: #4aaaa5;
 }
 
 #sticky-footer {
   flex-shrink: none;
   background: #666666 !important;
+  border-top: 5px solid #4aaaa5;;
 }
