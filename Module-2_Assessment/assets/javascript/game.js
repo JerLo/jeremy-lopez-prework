@@ -1,11 +1,6 @@
-//PROTOTYPE
-
 let answer = "vikings";
 
-let curString = "";
-for(let i = 0; i < answer.length; i++) {
-  curString = curString.concat("_");
-}
+let curString = createEmptyString(answer.length);
 
 let curAnswer = [];
 
@@ -14,6 +9,14 @@ let guessesLeft = 13;
 function setCharAt(str,index,chr) {
     if(index > str.length-1) return str;
     return str.substr(0,index) + chr + str.substr(index+1);
+}
+
+function createEmptyString(len) {
+  let str = "";
+  for(let i = 0; i < len; i++) {
+  str = str.concat("_");
+  }
+  return str;
 }
 
 document.addEventListener("keyup", function (event) {
@@ -44,5 +47,3 @@ document.addEventListener("keyup", function (event) {
   }
   
 });
-
-
