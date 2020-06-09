@@ -18,7 +18,7 @@ p {
 }
 
 .bg-image {
-  background-image: url("https://i.pinimg.com/originals/32/1a/05/321a052dbafe29e84e5bae129a0f602e.jpg");
+  background-image: url("../images/background.jpg");
   
   filter: blur(8px);
   -webkit-filter: blur(8px);
