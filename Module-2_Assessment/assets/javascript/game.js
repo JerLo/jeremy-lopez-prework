@@ -97,6 +97,7 @@ document.addEventListener("keyup", function (event) {
   
   if(guessesLeft <= 0) {
     console.log("You Lose!");
+    new Audio("assets/sounds/lost.mp3").play();
     reset();
     document.querySelector("#guessesLeft").innerText = "You LOST! Number of guesses left: " + guessesLeft;
     console.log("curString: " + curString.split('').join(' '));
@@ -105,6 +106,7 @@ document.addEventListener("keyup", function (event) {
   }
   else if(curAnswer.length >= answers[num].length) {
     console.log("You Win!");
+    new Audio("assets/sounds/won.mp3").play();
     wins++;
     document.querySelector("#wins").innerText = "Wins: " + wins;
     reset();
