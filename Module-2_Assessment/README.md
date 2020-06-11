@@ -12,7 +12,7 @@
 	* If the user has guessed all letters CORRECTLY:
 		* The win counter goes up by 1
 		* A sound sample of a cheering crowd will play
-		* A new team and their logo will be chosen at random to play again 
+		* A new team and their logo will be chosen at random to play again (same team may be picked again)
 		* The string 'You WON!' will appear to the left of the guess counter
 * If user guesses INCORRECTLY:
 	* The guesses counter will go down by 1
@@ -20,5 +20,5 @@
 	* The string 'Wrong guess!' will appear to the left of the guess counter
 	* If the user has used up all 13 guesses:
 		* A sound sample of a booing crowd will play
-		* A new team and their logo will be chosen at random to play again 
+		* A new team and their logo will be chosen at random to play again (same team may be picked again)
 		* The string 'You LOST!' will appear to the left of the guess counter 
